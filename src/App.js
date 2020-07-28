@@ -3,6 +3,7 @@ import "./styles.css";
 import MyTable from "./MyTable";
 import axios from "axios";
 import { Formik, Field, Form } from "formik";
+import { format } from "date-fns";
 
 export default function App() {
   const [data, setData] = React.useState({ hits: [] });
@@ -23,18 +24,27 @@ export default function App() {
   }
 
   function useDataFromFetch(data) {
+   
     const tableData = React.useMemo(
       () =>
         data.hits.map(d => ({
           created_at: d.created_at,
           title: d.title,
-          url: d.url
+          url: d.url,
+          author: d.author,
         })),
       [data.hits]
     );
     const tableColumns = React.useMemo(
       () => [
-        { Header: "Created", accessor: "created_at" },
+        {
+          Header: "Created",
+          accessor: "created_at",
+          Cell: props => {
+          
+            return format(new Date(props.value), "PPP");
+          }
+        },
         {
           Header: "Title of article",
           accessor: "title",
@@ -50,7 +60,12 @@ export default function App() {
               </a>
             );
           }
-        }
+        },
+        {
+          Header: "Author",
+          accessor: "author",
+          
+        },
       ],
       []
     );
