@@ -23,20 +23,40 @@ export default function App() {
   }
 
   function useDataFromFetch(data) {
-console.log(data)
     const tableData = React.useMemo(
-      () => data.hits.map(d => ({ created_at: d.created_at, title: d.title })),
+      () =>
+        data.hits.map(d => ({
+          created_at: d.created_at,
+          title: d.title,
+          url: d.url
+        })),
       [data.hits]
     );
     const tableColumns = React.useMemo(
-      () =>  ([{ Header: "Created", accessor: "created_at" },{ Header: "Title of article", accessor: "title" },]),
+      () => [
+        { Header: "Created", accessor: "created_at" },
+        {
+          Header: "Title of article",
+          accessor: "title",
+          Cell: props => {
+            return (
+              <a
+                href={props.row.original.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                {props.value}
+              </a>
+            );
+          }
+        }
+      ],
       []
     );
     return { tableData, tableColumns };
   }
   const { tableData, tableColumns } = useDataFromFetch(data);
-
-  
 
   return (
     <div className="App">

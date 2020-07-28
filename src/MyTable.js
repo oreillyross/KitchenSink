@@ -1,6 +1,8 @@
 import React from "react";
 import { useTable } from "react-table";
 
+function s(props) { console.log(props)} 
+
 function Mytable(props) {
   const tableInstance = useTable({ data: props.data, columns: props.columns });
 
@@ -33,7 +35,7 @@ function Mytable(props) {
             return (
               <tr {...row.getRowProps()}>
                 {row.cells.map(cell => (
-                  <td {...cell.getCellProps()}>{cell.render("Cell")}</td>
+                  <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
                 ))}
               </tr>
             );
