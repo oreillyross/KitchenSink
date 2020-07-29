@@ -4,10 +4,31 @@ import MyTable from "./MyTable";
 import axios from "axios";
 import { Formik, Form } from "formik";
 import { format } from "date-fns";
+import { Link, Router } from "@reach/router";
+import Why from "./Why";
 
 import { TextField, Button } from "@material-ui/core";
 
+function NotFound() {
+  return (
+    <div>
+      Page not found.... go back to home page, <Link to="/">HOME</Link>
+    </div>
+  );
+}
 export default function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Main path="/" />
+        <Why path="/why" />
+        <NotFound default />
+      </Router>
+    </div>
+  );
+}
+
+function Main() {
   const [data, setData] = React.useState([]);
   const [query, setQuery] = React.useState("Hacker News");
 
@@ -42,7 +63,7 @@ export default function App() {
         {
           Header: "Created",
           accessor: "created_at",
-          
+
           Cell: props => {
             return format(new Date(props.value), "PPP");
           }
@@ -73,9 +94,8 @@ export default function App() {
     return { tableData, tableColumns };
   }
   const { tableData, tableColumns } = useDataFromFetch(data);
-
   return (
-    <div className="App">
+    <>
       <h1>Hacker news</h1>
 
       <Formik onSubmit={doSearch} initialValues={{ query: "" }}>
@@ -93,6 +113,6 @@ export default function App() {
       </Formik>
       <div className="why">Why I built this site?</div>
       <MyTable data={tableData} columns={tableColumns} />
-    </div>
+    </>
   );
 }

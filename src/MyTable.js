@@ -14,9 +14,8 @@ function Mytable(props) {
     {
       data: props.data,
       columns: props.columns,
-      initialState: { 
-       sortBy: [{id: 'created_at', desc: true}],
-       
+      initialState: {
+        sortBy: React.useMemo(() => [{ id: "created_at", desc: true }], [])
       }
     },
     useSortBy
