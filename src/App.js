@@ -6,6 +6,9 @@ import { Formik, Form } from "formik";
 import { format } from "date-fns";
 import { Link, Router } from "@reach/router";
 import Why from "./Why";
+import Articles from './Articles'
+import Navigation from './navigation'
+
 
 import { TextField, Button } from "@material-ui/core";
 
@@ -19,9 +22,11 @@ function NotFound() {
 export default function App() {
   return (
     <div className="App">
+      <Navigation/>
       <Router>
         <Main path="/" />
         <Why path="/why" />
+        <Articles path='/articles'/>
         <NotFound default />
       </Router>
     </div>
@@ -111,7 +116,9 @@ function Main() {
           </Form>
         )}
       </Formik>
-      <div className="why">Why I built this site?</div>
+      <div className="why">
+        <Link to="/why">Why I built this site?</Link>
+      </div>
       <MyTable data={tableData} columns={tableColumns} />
     </>
   );
