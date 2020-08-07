@@ -1,0 +1,89 @@
+{
+  "timestamp": 1596797926,
+  "articleCount": 10,
+  "articles": [
+    {
+      "title": "The latest on the coronavirus pandemic: Live updates",
+      "description": "",
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiUWh0dHBzOi8vd3d3LmNubi5jb20vd29ybGQvbGl2ZS1uZXdzL2Nvcm9uYXZpcnVzLXBhbmRlbWljLTA4LTA3LTIwLWludGwvaW5kZXguaHRtbNIBVWh0dHBzOi8vYW1wLmNubi5jb20vY25uL3dvcmxkL2xpdmUtbmV3cy9jb3JvbmF2aXJ1cy1wYW5kZW1pYy0wOC0wNy0yMC1pbnRsL2luZGV4Lmh0bWw?oc=5",
+      "image": null,
+      "publishedAt": "2020-08-07 10:45:00 UTC",
+      "source": { "name": "CNN", "url": "https://www.cnn.com" }
+    },
+    {
+      "title": "India now has more than 2 million confirmed coronavirus cases",
+      "description": "",
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiVWh0dHBzOi8vd3d3LmNubi5jb20vMjAyMC8wOC8wNy9hc2lhL2luZGlhLWNvcm9uYXZpcnVzLXR3by1taWxsaW9uLWludGwtaG5rL2luZGV4Lmh0bWzSAVlodHRwczovL2FtcC5jbm4uY29tL2Nubi8yMDIwLzA4LzA3L2FzaWEvaW5kaWEtY29yb25hdmlydXMtdHdvLW1pbGxpb24taW50bC1obmsvaW5kZXguaHRtbA?oc=5",
+      "image": null,
+      "publishedAt": "2020-08-07 10:05:00 UTC",
+      "source": { "name": "CNN", "url": "https://www.cnn.com" }
+    },
+    {
+      "title": "Sri Lanka's powerful Rajapaksa brothers claim landslide in parliamentary elections",
+      "description": "",
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiXGh0dHBzOi8vd3d3LmNubi5jb20vMjAyMC8wOC8wNy9hc2lhL3NyaS1sYW5rYS1lbGVjdGlvbi1tYWhpbmRhLXJhamFwYWtzYS1pbnRsLWhuay9pbmRleC5odG1s0gFgaHR0cHM6Ly9hbXAuY25uLmNvbS9jbm4vMjAyMC8wOC8wNy9hc2lhL3NyaS1sYW5rYS1lbGVjdGlvbi1tYWhpbmRhLXJhamFwYWtzYS1pbnRsLWhuay9pbmRleC5odG1s?oc=5",
+      "image": null,
+      "publishedAt": "2020-08-07 08:55:00 UTC",
+      "source": { "name": "CNN", "url": "https://www.cnn.com" }
+    },
+    {
+      "title": "Tencent Stock Drops After Firm Is Targeted by Trump Executive Order",
+      "description": "",
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMibGh0dHBzOi8vd3d3Lndzai5jb20vYXJ0aWNsZXMvdGVuY2VudC1zdG9jay1kcm9wcy1hZnRlci1maXJtLWlzLXRhcmdldGVkLWJ5LXRydW1wLWV4ZWN1dGl2ZS1vcmRlci0xMTU5Njc3NzY3N9IBAA?oc=5",
+      "image": null,
+      "publishedAt": "2020-08-07 08:51:00 UTC",
+      "source": {
+        "name": "The Wall Street Journal",
+        "url": "https://www.wsj.com"
+      }
+    },
+    {
+      "title": "China sentences fourth Canadian to death on drug charges",
+      "description": "",
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiUGh0dHBzOi8vd3d3LmZveG5ld3MuY29tL3dvcmxkL2NoaW5hLXNlbnRlbmNlcy1mb3VydGgtY2FuYWRpYW4tZGVhdGgtZHJ1Zy1jaGFyZ2Vz0gFUaHR0cHM6Ly93d3cuZm94bmV3cy5jb20vd29ybGQvY2hpbmEtc2VudGVuY2VzLWZvdXJ0aC1jYW5hZGlhbi1kZWF0aC1kcnVnLWNoYXJnZXMuYW1w?oc=5",
+      "image": null,
+      "publishedAt": "2020-08-07 08:21:21 UTC",
+      "source": { "name": "Fox News", "url": "https://www.foxnews.com" }
+    },
+    {
+      "title": "Tanzanian miner finds third rare tanzanite gem worth millions after record haul",
+      "description": "",
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiYmh0dHBzOi8vd3d3LmZveG5ld3MuY29tL3dvcmxkL3Rhbnphbmlhbi1taW5lci1maW5kcy10aGlyZC10YW56YW5pdGUtZ2VtLXdvcnRoLW1pbGxpb25zLXJlY29yZC1oYXVs0gFmaHR0cHM6Ly93d3cuZm94bmV3cy5jb20vd29ybGQvdGFuemFuaWFuLW1pbmVyLWZpbmRzLXRoaXJkLXRhbnphbml0ZS1nZW0td29ydGgtbWlsbGlvbnMtcmVjb3JkLWhhdWwuYW1w?oc=5",
+      "image": null,
+      "publishedAt": "2020-08-07 07:04:44 UTC",
+      "source": { "name": "Fox News", "url": "https://www.foxnews.com" }
+    },
+    {
+      "title": "A South Korean lawmaker has come under fire for her outfit. Her offense? She wore a dress",
+      "description": "",
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiVGh0dHBzOi8vd3d3LmNubi5jb20vMjAyMC8wOC8wNy9hc2lhL3NvdXRoLWtvcmVhLXBvbGl0aWNpYW4tZHJlc3MtaW50bC1obmsvaW5kZXguaHRtbNIBWGh0dHBzOi8vYW1wLmNubi5jb20vY25uLzIwMjAvMDgvMDcvYXNpYS9zb3V0aC1rb3JlYS1wb2xpdGljaWFuLWRyZXNzLWludGwtaG5rL2luZGV4Lmh0bWw?oc=5",
+      "image": null,
+      "publishedAt": "2020-08-07 06:26:00 UTC",
+      "source": { "name": "CNN", "url": "https://www.cnn.com" }
+    },
+    {
+      "title": "Trump reimposes US tariffs on raw Canadian aluminium",
+      "description": "",
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiZmh0dHBzOi8vd3d3LmFsamF6ZWVyYS5jb20vYWppbXBhY3QvdHJ1bXAtcmVpbXBvc2VzLXRhcmlmZnMtcmF3LWNhbmFkaWFuLWFsdW1pbml1bS0yMDA4MDcwMDEzNDE4OTQuaHRtbNIBamh0dHBzOi8vd3d3LmFsamF6ZWVyYS5jb20vYW1wL2FqaW1wYWN0L3RydW1wLXJlaW1wb3Nlcy10YXJpZmZzLXJhdy1jYW5hZGlhbi1hbHVtaW5pdW0tMjAwODA3MDAxMzQxODk0Lmh0bWw?oc=5",
+      "image": null,
+      "publishedAt": "2020-08-07 03:13:00 UTC",
+      "source": { "name": "Aljazeera.com", "url": "https://www.aljazeera.com" }
+    },
+    {
+      "title": "\"The whole city is shattered\": Lebanon's U.N. ambassador describes the aftermath of Beirut explosions",
+      "description": "",
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiemh0dHBzOi8vd3d3LmNic25ld3MuY29tL25ld3MvYmVpcnV0LWV4cGxvc2lvbi10aGUtd2hvbGUtY2l0eS1pcy1zaGF0dGVyZWQtbGViYW5vbnMtdS1uLWFtYmFzc2Fkb3ItZGVzY3JpYmVzLXRoZS1hZnRlcm1hdGgv0gF-aHR0cHM6Ly93d3cuY2JzbmV3cy5jb20vYW1wL25ld3MvYmVpcnV0LWV4cGxvc2lvbi10aGUtd2hvbGUtY2l0eS1pcy1zaGF0dGVyZWQtbGViYW5vbnMtdS1uLWFtYmFzc2Fkb3ItZGVzY3JpYmVzLXRoZS1hZnRlcm1hdGgv?oc=5",
+      "image": null,
+      "publishedAt": "2020-08-07 03:03:00 UTC",
+      "source": { "name": "CBS News", "url": "https://www.cbsnews.com" }
+    },
+    {
+      "title": "Advisers feared Trump's military decisions would lead US to war",
+      "description": "",
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9a2N6S1ppbVpCLTjSAQA?oc=5",
+      "image": null,
+      "publishedAt": "2020-08-07 02:50:13 UTC",
+      "source": { "name": "CNN", "url": "https://www.youtube.com" }
+    }
+  ]
+}

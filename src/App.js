@@ -6,9 +6,8 @@ import { Formik, Form } from "formik";
 import { format } from "date-fns";
 import { Link, Router } from "@reach/router";
 import Why from "./Why";
-import Articles from './Articles'
-import Navigation from './navigation'
-
+import Articles from "./Articles";
+import Navigation from "./navigation";
 
 import { TextField, Button } from "@material-ui/core";
 
@@ -22,11 +21,11 @@ function NotFound() {
 export default function App() {
   return (
     <div className="App">
-      <Navigation/>
+      <Navigation />
       <Router>
         <Main path="/" />
         <Why path="/why" />
-        <Articles path='/articles'/>
+        <Articles path="/articles" />
         <NotFound default />
       </Router>
     </div>
@@ -42,7 +41,7 @@ function Main() {
       const results = await axios(
         `https://hn.algolia.com/api/v1/search?query=${query}`
       );
-      setData(results.data.hits.filter(d => d.title !== null));
+      setData(results.data.hits.filter((d) => d.title !== null));
     };
     fetchData();
   }, [query]);
@@ -55,7 +54,7 @@ function Main() {
   function useDataFromFetch(data) {
     const tableData = React.useMemo(
       () =>
-        data.map(d => ({
+        data.map((d) => ({
           created_at: d.created_at,
           title: d.title,
           url: d.url,
@@ -69,14 +68,14 @@ function Main() {
           Header: "Created",
           accessor: "created_at",
 
-          Cell: props => {
+          Cell: (props) => {
             return format(new Date(props.value), "PPP");
           }
         },
         {
           Header: "Title of article",
           accessor: "title",
-          Cell: props => {
+          Cell: (props) => {
             return (
               <a
                 href={props.row.original.url}
@@ -104,7 +103,7 @@ function Main() {
       <h1>Hacker news</h1>
 
       <Formik onSubmit={doSearch} initialValues={{ query: "" }}>
-        {props => (
+        {(props) => (
           <Form className="query-form">
             <TextField
               value={props.values.query}
