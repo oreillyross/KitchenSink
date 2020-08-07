@@ -4,18 +4,20 @@ import MyTable from "./MyTable";
 import { format } from "date-fns";
 
 export default function Articles() {
-  console.log(mdata);
+  
+  const [articles, setArticles] = React.useState(mdata.articles)
 
   React.useEffect(() => {
+   
     async function getdata() {
       //const data = await fetch('https://gnews.io/api/v3/top-news?token=ae11683210fd5620c39b86b092d99c02')
       //console.log(data.data.articles)
+// setArticles(data.data.articles)
     }
     getdata();
   }, []);
 
-  const data = mdata.articles;
-
+  
   function useDataFromFetch(data) {
     const tableData = React.useMemo(
       () =>
@@ -62,8 +64,8 @@ export default function Articles() {
     );
     return { tableData, tableColumns };
   }
-
-  const { tableData, tableColumns } = useDataFromFetch(data);
+  console.log(articles)
+  const { tableData, tableColumns } = useDataFromFetch(articles);
 
   return (
     <div>
